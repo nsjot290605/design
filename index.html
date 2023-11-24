@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -40,20 +42,22 @@
                 <img class="sliderImage" src="img/carousel-1.jpg" alt="">
             </div>
             <div class="text">
-
-                <h5 class="text-white h5">Transport &amp; Logistics Solution</h5>
-                <h1 class="text-white  h1">#1 Place For Your <span class="text-primary">Logistics</span> Solution</h1>
-                <p class="text-white p50">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum
+                <h5 class="text-white h5 animated slideInDown">Transport &amp; Logistics Solution</h5>
+                <h1 class="text-white  h1 animated slideInDown">#1 Place For Your <span
+                        class="text-primary">Logistics</span> Solution</h1>
+                <p class="text-white p50 animated headShake">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit
+                    diam no. Kasd rebum
                     ipsum et
                     diam justo clita et kasd rebum sea elitr.</p>
-                <a href="" class="btn-primary">Read More</a>
-                <a href="" class="btn-secondary">Free Quote</a>
-
+                <div class="btn-header">
+                    <a href="" class="btn-primary animated slideInLeft">Read More</a>
+                    <a href="" class="btn-secondary animated slideInRight">Free Quote</a>
+                </div>
             </div>
         </div>
         <div class="d3">
-            <div class="d31"><img class="image1" src="img/about.jpg" alt="image"></div>
-            <div class="d31 pd10">
+            <div class="d31 animated fadeInLeft"><img class="image1" src="img/about.jpg" alt="image"></div>
+            <div class="d31 pd10 animated fadeInUp">
                 <div class="d32">
                     <p>ABOUT US</p>
                 </div>
@@ -91,7 +95,7 @@
 
         </div>
         <div class="d3">
-            <div class="d31">
+            <div class="d31 animated fadeInUp">
                 <div class="dhe">SOME FACTS</div>
                 <div class="dfh">#1 Place To Manage All Of Your Shipments</div>
                 <div class="d3hi">
@@ -106,12 +110,30 @@
 
             </div>
             <div class="d31">
-                <div class="dv"></div>
-                <div class="ds"></div>
-                <div class="dw"></div>
+                <div class="dv animated fadeIn" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Happy Clients</p>
+                </div>
+                <div class="ds animated fadeIn" data-wow-delay="0.5s"
+                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <i class="fa fa-ship fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Complete Shipments</p>
+
+                </div>
+                <div class="dw animated fadeIn" data-wow-delay="0.8s"
+                    style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
+                    <i class="fa fa-star fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Customer Reviews</p>
+                </div>
+
             </div>
         </div>
-        <div class="d4">
+
+        <div class="d4 ">
             <div class="d42">
                 <b>
                     <p>Our Services</p>
@@ -166,7 +188,7 @@
             </div>
         </div>
         <div class="d5">
-            <div class="d51">
+            <div class="d51 animated fadeInUp" data-wow-delay="0.3s">
                 <div class="d5p">Our Features</div>
                 <div class="d5d">We are trusted Logistics Company Since 1990 </div>
                 <div class="d5f"><b>Worldwide Service</b></div>
@@ -179,46 +201,51 @@
                 </div>
 
             </div>
-            <div class="d51"><img class="image1" src="img/feature.jpg" alt=""></div>
+            <div class="d51 animated fadeInRight" data-wow-delay="0.5s"><img class="image1" src="img/feature.jpg"
+                    alt="">
+            </div>
         </div>
-        <div class="d6">
+        <div class="d6 animated fadeInUp" data-wow-delay="0.3s">
             <div class="d42"> <b>PRICING PLAN</b></div>
             <div class="d43"><b>Perfect Pricing Plan</b></div>
             <div class="d61">
                 <div class="d62">Basic Plan</div>
                 <div class="d63"><sup>$</sup>49.00 <sub>/ Month</sub> </div>
                 <div class="d64">
-                    <li>HTML5 & CSS3</li>
-                    <li>Bootstrap v5</li>
-                    <li>FontAwesome Icons</li>
-                    <li>Responsive Layout</li>
-                    <li>Cross-browser Support</li>
-                    <div></div>
+                    <ul>
+                        <li> <i class="fa fa-check green"></i> HTML5 & CSS3</li>
+                        <li> <i class="fa fa-check green"></i> Bootstrap v5</li>
+                        <li> <i class="fa fa-check green"></i> FontAwesome Icons</li>
+                        <li> <i class="fa fa-check green"></i> Responsive Layout</li>
+                        <li> <i class="fa fa-check green"></i> Cross-browser Support</li>
+                    </ul>
                 </div>
             </div>
-            <div class="d61">
+            <div class="d61 animated fadeInUp" data-wow-delay="0.5s">
                 <div class="d62">Standard Plan</div>
                 <div class="d63"><sup>$</sup>99.00 <sub>/ Month</sub> </div>
                 <div class="d64">
-                    <li>HTML5 & CSS3</li>
-                    <li>Bootstrap v5</li>
-                    <li>FontAwesome Icons</li>
-                    <li>Responsive Layout</li>
-                    <li>Cross-browser Support</li>
-                    <div></div>
+                    <ul>
+                        <li> <i class="fa fa-check green"></i> HTML5 & CSS3</li>
+                        <li> <i class="fa fa-check green"></i> Bootstrap v5</li>
+                        <li> <i class="fa fa-check green"></i> FontAwesome Icons</li>
+                        <li> <i class="fa fa-check green"></i> Responsive Layout</li>
+                        <li> <i class="fa fa-check green"></i> Cross-browser Support</li>
+                    </ul>
                 </div>
 
             </div>
-            <div class="d61">
+            <div class="d61 animated fadeInUp" data-wow-delay="0.9s">
                 <div class="d62">Advanced Plan</div>
                 <div class="d63"><sup>$</sup>149.00 <sub>/ Month</sub> </div>
                 <div class="d64">
-                    <li>HTML5 & CSS3</li>
-                    <li>Bootstrap v5</li>
-                    <li>FontAwesome Icons</li>
-                    <li>Responsive Layout</li>
-                    <li>Cross-browser Support</li>
-                    <div></div>
+                    <ul>
+                        <li> <i class="fa fa-check green"></i> HTML5 & CSS3</li>
+                        <li> <i class="fa fa-check green"></i> Bootstrap v5</li>
+                        <li> <i class="fa fa-check green"></i> FontAwesome Icons</li>
+                        <li> <i class="fa fa-check green"></i> Responsive Layout</li>
+                        <li> <i class="fa fa-check green"></i> Cross-browser Support</li>
+                    </ul>
                 </div>
 
             </div>
@@ -242,7 +269,48 @@
                 </div>
             </div>
 
-            <div class="d71"></div>
+            <div class="d71 queryForm">
+
+                <div class="formEnquiry">
+                    <form action="">
+                        <div class="row-wapper">
+                            <div class="field">
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="YourEmail">
+                            </div>
+                        </div>
+                        
+                        <div class="row-wapper">
+                            <div class="field">
+                                <input type="text" placeholder="Your Mobile">
+                            </div>
+                            <div class="field">
+                                <select>
+                                    <option selected="">Select A Freight</option>
+                                    <option value="1">Freight 1</option>
+                                    <option value="2">Freight 2</option>
+                                    <option value="3">Freight 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-wapper">
+                            <div class="field">
+                              <textarea name="" id="" cols="30" rows="10"
+                              placeholder="Special Note"></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="row-wapper">
+                            <div class="field">
+                              <button type="submit">Submit</button>
+                            </div>
+                           
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
         <div class="d8">
             <div class="d42">Our Team</div>
@@ -295,14 +363,14 @@
         <div class="d9">
             <div class="d42">TESTIMONIAL</div>
             <div class="d43">Our Clients Say!</div>
-            <div class="d92">
+            <div class="d92  animated fadeInLeft" data-wow-delay="2.3s">
                 <div class="d9d"><img src="img/testimonial-1.jpg" alt=""></div>
                 <div class="d93"><b>Client Name</b></div>
                 <div class="d94">Profession</div>
                 <div class="d94">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa eligendi quae quidem
                     explicabo beatae incidunt quia, obcaecati eos ipsam sequi. Repellat quis doloribus quaerat.</div>
             </div>
-            <div class="d92">
+            <div class="d92  animated fadeInUp" data-wow-delay="0.5s">
                 <div class="d9d"><img src="img/testimonial-2.jpg" alt=""></div>
                 <div class="d93"><b>Client Name</b></div>
                 <div class="d94">Profession</div>
@@ -310,7 +378,7 @@
                     explicabo beatae incidunt quia, obcaecati eos ipsam sequi. Repellat quis doloribus quaerat.</div>
 
             </div>
-            <div class="d92">
+            <div class="d92  animated fadeInRight" data-wow-delay="0.9s">
                 <div class="d96"><img src="img/testimonial-3.jpg" alt=""></div>
                 <div class="d93"><b>Client Name</b></div>
                 <div class="d94">Profession</div>
@@ -349,6 +417,25 @@
     </div>
     </div>
     </div>
+    <script src="jquery.js"></script>
+    <script src="wow.js"></script>
+    <script src="animation.js"></script>
+    <script src="waypoint.js"></script>
+    <script src="counter.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            // Initiate the wowjs
+            new WOW().init();
+            // Facts counter
+            $('[data-toggle="counter-up"]').counterUp({
+                delay: 10,
+                time: 2000
+            });
+
+
+        })(jQuery);
+    </script>
 </body>
 
 </html>

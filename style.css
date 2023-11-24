@@ -188,6 +188,10 @@
     margin-bottom: 185px;
 }
 
+.d6 ul {
+    list-style-type: none;
+}
+
 .d61 {
     height: 500px;
     width: 30%;
@@ -210,6 +214,52 @@
     width: 50%;
     float: left;
     padding: 30px;
+
+}
+
+.queryForm {
+    background-color: #f7dcd3 !important;
+    padding-top: 40px;
+}
+.row-wapper {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin-bottom: 50px;
+  
+}
+.row-wapper input , .row-wapper  select{
+    width: 280px;
+    height: 60px ;
+    margin-left: 20px;
+    font-size: 18px;
+    text-indent: 10px;
+    border: none;
+    
+}
+.row-wapper button{
+    width: 580px;
+    height: 60px ;
+    margin-left: 20px;
+    font-size: 18px;
+    text-indent: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    
+}
+.row-wapper textarea{
+    width: 580px;
+    height: 60px ;
+    margin-left: 20px;
+    font-size: 18px;
+    text-indent: 10px;
+    border: none;
+    
+    
+}
+.row-wapper .field {
+    float: left;
 }
 
 .dn {
@@ -232,20 +282,24 @@
 }
 
 .d81 {
-    width: 300px;
-    height: auto;
-    /* height: auto; */
+    width: 250px;
+    height: 250px;
     float: left;
-    padding-left: 50px;
+    background-color: red;
+    margin-left: 50px;
 }
 
 .d81img {
-    width: 300px;
+    width: 250px;
     height: 250px;
     overflow: hidden;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    /* margin-left: 10px; */
+    margin: 0 auto;
+    background-color: yellow;
 
 }
+
 
 
 .d9 {
@@ -453,16 +507,21 @@
 
 .text {
     width: 49%;
-    height: 257px;
+    height: 365px;
     /* background-color: lightpink; */
     position: absolute;
     top: 200px;
     left: 102px;
 }
 
-.text>a {
-    margin-left: 50px;
-    ;
+.btn-header>a {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.btn-header {
+    text-align: center;
 }
 
 .text>.h5 {
@@ -504,6 +563,8 @@
 
 .d81:hover>.d81img>img {
     transform: scale(1.2, 1.2);
+    overflow: hidden;
+
 }
 
 .d4p>img {
@@ -569,6 +630,11 @@
     color: #FF3E41;
     font-size: 30px;
 
+}
+
+.green {
+    color: rgb(8, 96, 8);
+    font-size: 20px;
 }
 
 .d63 {
